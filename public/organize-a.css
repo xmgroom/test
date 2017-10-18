@@ -1,0 +1,69 @@
+.top-info {
+  border: none;
+}
+.top-info .top-btn {
+  border: 1px solid #585858;
+  background: #000;
+  border-radius: 1px;
+}
+.box-container {
+  width: 100%;
+  background: url(/image/bg1.png) center / 100% no-repeat;
+  margin-top: -1px;
+  height: 100%;
+  padding-top: 10%;
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+.inline-block {
+  display: inline-block;
+}
+.add-organize {
+  margin: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background: url(/image/plus.png) center / 50% no-repeat;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  position: relative;
+  font-size: 1rem;
+}
+.add-organize:after {
+  content: "新增组织";
+  position: absolute;
+  bottom: -40px;
+  left: 16px;
+  color: #eee;
+}
+.add-organize:hover {
+  box-shadow: 0 0 20px #2ba6ee;
+  cursor: pointer;
+}
+.organizes {
+  margin: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background: url(/image/avatar.jpg) center / cover no-repeat;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  position: relative;
+  font-size: 1rem;
+}
+.organizes .title {
+  position: absolute;
+  word-break: break-all;
+  top: 129px;
+  left: 0px;
+  color: #eee;
+  width: 120px;
+}
+.organizes:hover {
+  box-shadow: 0 0 20px #2ba6ee;
+  cursor: pointer;
+}

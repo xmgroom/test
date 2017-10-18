@@ -1,0 +1,298 @@
+html{
+    overflow-x: hidden;
+}
+
+.main-title {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 40px;
+    background: #ebf1f4;
+}
+
+.channel-select {
+    width: 160px;
+    display: inline-block
+}
+
+.main-body-left {
+    width: 12%;
+    float: left
+}
+
+.main-body-left ul {
+    display: block;
+    width: 100%;
+    list-style: none;
+    padding-left: 0
+}
+
+.main-body-left ul .active {
+    background: #f1f3f6
+}
+
+.main-body-left ul li {
+    height: 48px;
+    padding-left: 40px;
+    border-bottom: 1px solid #ccc;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.main-body-left ul li a {
+    height: 48px;
+    display: inline-block;
+    width: 100%;
+    line-height: 48px;
+    color: #000;
+    font-weight: 600;
+    font-family: "微软雅黑"
+}
+
+.main-body-left ul li a:hover {
+    text-decoration: none;
+    color: #1f1f1f
+}
+
+.main-body-right {
+    width: 87%;
+    float: left;
+    border: 1px solid #ccc;
+    border-top: none;
+    background:#fff;
+}
+
+.main-body-right .main-body-right-left {
+    width: 60%;
+    border-right: 1px solid #ccc;
+    float: left
+}
+
+.main-body-right .main-body-right-left .main-body-right-left-header {
+    height: 48px;
+    border-bottom: 1px solid #eee;
+    padding-left: 40px;
+    line-height: 48px;
+    font-size: 14px;
+    background: #e7eeed
+}
+
+.main-body-right .main-body-right-left .main-body-right-left-header .left-header-control {
+    width: 20%;
+    float: right;
+    height: 100%;
+    margin-right: 20px
+}
+
+.main-body-right .main-body-right-left .main-body-right-left-header .left-header-control span {
+    font-size: 12px
+}
+
+.main-body-right .main-body-right-left .main-body-right-left-body .body-control {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    background: #f3f2f2;
+    text-align: center
+}
+
+.main-body-right .main-body-right-left .main-body-right-left-body .body-control button {
+    height: 32px;
+    width: 80px;
+    margin: 12px 8px
+}
+
+.main-body-right .main-body-right-left .main-body-right-left-body .body-control a {
+    height: 32px;
+    width: 80px;
+    margin: 12px 8px
+}
+
+.main-body-right .main-body-right-left .body-address {
+    background: #fff;
+    min-height: 300px
+}
+
+.main-body-right .main-body-right-left .body-address h3 {
+    margin-top: 40px;
+    font-size: 16px
+}
+
+.main-body-right .main-body-right-left .body-address .push-address {
+    width: 80%;
+    margin-left: 20px;
+    float: left;
+    border-radius: 0
+}
+
+.main-body-right .main-body-right-left .body-address .push-copy {
+    margin-left: 10px
+}
+
+.main-body-right .main-body-right-left .body-address .push-info {
+    margin-left: 4px;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    color: #282828
+}
+
+.main-body-right .main-body-right-left .body-address .push-info1 {
+    margin-left: 4px
+}
+
+.main-body-right-right {
+    width: 40%;
+    float: left;
+    background: #fff
+}
+
+.main-body-right-right .main-body-right-right-header {
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+    line-height: 48px;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #e7eeed
+}
+
+.main-body-right-right .body-right-body {
+    width: 100%
+}
+
+.main-body-right-right .body-right-body .body-right-body-header {
+    height: 50px;
+    border-bottom: 1px solid #ccc
+}
+
+.main-body-right-right .body-right-body .body-right-body-header .show-comments {
+    display: inline-block;
+    height: 20px;
+    margin: 14px 10px
+}
+
+.main-body-right-right .body-right-body-body {
+    width: 100%
+}
+
+.main-body-right-right .body-right-body-body .body-comment-box {
+    list-style: none;
+    display: block;
+    padding-left: 0;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0
+}
+
+.main-body-right-right .body-right-body-body .body-comment-box li {
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    min-height: 82px
+}
+
+.main-body-right-right .body-right-body-body .body-comment-box li .content-item-top-right {
+    display: inline-block;
+    width: 82%;
+    padding-left: 20px
+}
+
+.main-body-right-right .body-right-body-body .body-comment-box li .content-item-top-right h4 {
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block
+}
+
+.main-body-right-right .body-right-body-body .body-comment-box li img {
+    height: 50px;
+    width: 50px;
+    vertical-align: top;
+    margin: 19px 0
+}
+
+.main-body-right-right .body-right-body-body .body-comment-box li .comment-control {
+    position: absolute;
+    right: 20px;
+    bottom: 20px
+}
+
+.main-body-right-right .body-right-body-footer {
+    width: 100%
+}
+
+.main-body-right-right .body-right-body-footer textarea {
+    width: 100%;
+    padding: 20px;
+    resize: none;
+    border: none;
+    height: 100px;
+}
+
+.coment-content:hover {
+    background: #eee;
+}
+
+.chat-config {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 999;
+
+}
+
+.chat-config ul {
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .main-body-right-right .body-right-body .body-right-body-header .show-control {
+        width: 60%;
+        float: right;
+        height: 100%;
+        position: relative;
+    }
+
+    .main-body-right-right .body-right-body .body-right-body-header .show-control button {
+        margin: 10px 1%;
+        height: 32px
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .main-body-right-right .body-right-body .body-right-body-header .show-control {
+        width: 70%;
+        float: right;
+        height: 100%;
+        position: relative;
+    }
+
+    .main-body-right-right .body-right-body .body-right-body-header .show-control button {
+        margin: 10px 5%;
+        height: 32px
+    }
+
+}
+
+.comment_btn_gray {
+    border: 1px solid gray;
+    color:gray
+}
+.comment_btn_default{
+    border: 1px solid #2ba6ee;
+    color:#2ba6ee
+}
+.comment_btn_default:hover{
+    border: 1px solid #2ba6ee;
+    color:#2ba6ee;    
+    background: rgba(0,0,0,.1);
+}

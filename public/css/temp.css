@@ -1,0 +1,174 @@
+@import url(tool.css);
+body{
+  font-family: "微软雅黑";
+}
+.top-text {
+  float: right;
+  display: inline-block;
+  min-height: 100%;
+  line-height: 64px;
+  color: #c8c8c8;
+  margin-right: 60px;
+}
+
+.top-info {
+  float: left;
+  border: 1px solid #555;
+  margin: 10px 16px;
+  height: 42px;
+  min-width: 260px;
+}
+.top-info > img {
+  margin: 3px 5px;
+}
+.top-info > span {
+  color: #a3a3a3;
+}
+.topbar {
+  background: #1c1c1c;
+  height: 62px;
+  border-bottom: 1px solid #ccc;
+  display:flex;
+  flex-flow:row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar > img {
+  margin-left: 20px;
+}
+.top-btn {
+  float: right;
+  background: #3c3c3c;
+  height: 30px;
+  margin: 6px;
+  line-height: 16px;
+  border-radius: 0;
+}
+.top-btn:active {
+  color: #fff;
+}
+.top-btn:hover {
+  color: #eee;
+}
+.left-menu {
+  float: left;
+  background: #383838;
+  width: 10%;
+  margin-top: -1px;
+}
+.left-menu ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+.left-menu ul a {
+  text-decoration: none;
+  color: #ccc;
+}
+.left-menu ul a li {
+  height: 48px;
+  min-width: 100%;
+  border-bottom: 1px solid #282828;
+  line-height: 48px;
+  position: relative;
+  word-break: break-all;
+  white-space: nowrap;
+}
+.posr{
+  position: relative;
+}
+.posa{
+  position: absolute;
+}
+.left-menu ul a li > img {
+  margin: 0 12px 0 20px;
+}
+.left-active {
+  background: #272727;
+}
+.left-active:after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #2ba6ee;
+}
+.left-active:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  border-top: 10px solid transparent;
+  border-right: 14px solid #e4e7ed;
+  border-bottom: 10px solid transparent;
+}
+.box-container {
+  float: left;
+  width: 90%;
+  min-height: 100%;
+  background: #e4e7ed;
+}
+.main-box {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin: 20px 18px 20px 18px;
+}
+.main-title p {
+  line-height: 20px;
+  text-align: right;
+  margin: 10px 0;
+  padding-right: 40px;
+}
+.main-title p > span {
+  margin-left: 10px;
+}
+#account {
+  position: relative;
+}
+.logout {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  z-index: 1000;
+  width: 80px;
+  color: #eee;
+  text-align: center;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  background: #1c1c1c;
+  cursor: pointer;
+  display: none;
+}
+.logout:hover {
+  background: #181818;
+}
+.logout:active {
+  color: #ccc;
+}
+.change-password {
+  position: absolute;
+  top: 79px;
+  right: 0;
+  z-index: 1000;
+  width: 80px;
+  color: #eee;
+  text-align: center;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  background: #1c1c1c;
+  cursor: pointer;
+  display: none;
+}
+.change-password:hover {
+  background: #181818;
+}
+.change-password:active {
+  color: #ccc;
+}
+

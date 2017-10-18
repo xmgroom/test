@@ -1,0 +1,46 @@
+@import url(tool.css);
+
+.login-topimage {
+    margin-top: 10%;
+    transform: translateX(-13px) scale(1.2);
+}
+
+.main-container {
+    width: 320px;
+    background: #fff;
+    margin-top: 1rem;
+    font-size: 12px;
+    padding: 20px
+}
+
+.login-form-title {
+    font-weight: 600;
+    color: #2ba6ee
+}
+
+.v-code {
+    width: 30% !important;
+    margin-right: .5rem
+}
+
+.forget {
+    color: #2ba6ee
+}
+
+.login-submit {
+    width: 80%;
+    background: #2ba6ee;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 5px
+}
+
+a {
+    color: #2ba6ee
+}
+
+.footer {
+    height: 100px;
+    color: #fff;
+    font-size: 12px
+}

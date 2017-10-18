@@ -1,0 +1,203 @@
+.main-title {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 40px;
+}
+.channel-select {
+  width: 160px;
+  display: inline-block;
+}
+.main-body-left {
+  width: 12%;
+  float: left;
+}
+.main-body-left ul {
+  display: block;
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+}
+.main-body-left ul .active {
+  background: #f1f3f6;
+}
+.main-body-left ul li {
+  height: 48px;
+  padding-left: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main-body-left ul li a {
+  height: 48px;
+  display: inline-block;
+  width: 100%;
+  line-height: 48px;
+  color: #000;
+  font-weight: 600;
+  font-family: "微软雅黑";
+}
+.main-body-left ul li a:hover {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+.main-body-right {
+  width: 87%;
+  float: left;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+}
+.main-body-right .main-body-right-left {
+  width: 50%;
+  float: left;
+  background: #fff;
+}
+.main-body-right .main-body-right-left .main-body-right-left-header {
+  height: 48px;
+  padding-left: 20px;
+  line-height: 48px;
+  font-size: 14px;
+  background: #fff;
+}
+.main-body-right .main-body-right-left .main-body-right-left-header .left-header-control {
+  color: #686868;
+  margin-left: 20px;
+  display: inline-block;
+}
+.main-body-right .main-body-right-left .main-body-right-left-body .body-content {
+  position: relative;
+}
+.main-body-right .main-body-right-left .main-body-right-left-body .body-content > p {
+  margin: 20px 0 0 20px;
+  font-size: 14px;
+  color: #000;
+}
+.main-body-right .main-body-right-left .main-body-right-left-body .body-content > p img {
+  margin-left: 20px;
+}
+.main-body-right .main-body-right-left .main-body-right-left-body .body-content .img-group {
+  width: 70%;
+  display: inline-block;
+  height: 400px;
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+}
+.main-body-right .main-body-right-left .main-body-right-left-body .body-content .upload-group {
+  width: 21%;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+.main-body-right .main-body-right-left .body-address {
+  background: #fff;
+  min-height: 300px;
+  padding-left: 20px;
+}
+.main-body-right .main-body-right-left .body-address h3 {
+  margin-top: 40px;
+  font-size: 16px;
+}
+.main-body-right .main-body-right-left .body-address .push-address {
+  width: 80%;
+  margin-left: 20px;
+  float: left;
+  border-radius: 0px;
+}
+.main-body-right .main-body-right-left .body-address .push-copy {
+  margin-left: 10px;
+}
+.main-body-right .main-body-right-left .body-address .push-info {
+  margin-left: 4px;
+  margin-top: 40px;
+  margin-bottom: 2px;
+  color: #282828;
+}
+.main-body-right .main-body-right-left .body-address .push-info1 {
+  margin-left: 4px;
+}
+.main-body-right-right {
+  width: 30%;
+  float: left;
+  background: #fff;
+}
+.main-body-right-right .main-body-right-right-header {
+  height: 48px;
+  border-bottom: 1px solid #ccc;
+  line-height: 48px;
+  padding: 0 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #e7eeed;
+}
+.coment-content:hover {
+  background: #eee;
+}
+@media screen and (min-height: 1100px) {
+  .body-right-body {
+    width: 100%;
+    padding: 4% 5%;
+    height: 100%;
+  }
+  .body-right-body .mobile {
+    position: relative;
+    width: 342px;
+    height: 732px;
+    padding: 109px 26px 115px 30px;
+  }
+}
+@media screen and (max-height: 768px) {
+  .body-right-body {
+    width: 100%;
+    padding: 4% 5%;
+    height: 100%;
+  }
+  .body-right-body .mobile {
+    position: relative;
+    width: 171px;
+    height: 366px;
+    padding: 54.5px 13px 57.5px 15px;
+  }
+}
+@media screen and (min-height: 769px) and (max-height: 1100px) {
+  .body-right-body {
+    width: 100%;
+    padding: 4% 5%;
+    height: 100%;
+  }
+  .body-right-body .mobile {
+    position: relative;
+    width: 263.07692308px;
+    height: 563.07692308px;
+    padding: 83.84615385px 20px 88.46153846px 23.07692308px;
+  }
+}
+.body-right-body {
+  text-align: center;
+}
+.body-right-body p {
+  text-align: left;
+}
+.body-right-body .mobile {
+  display: inline-block;
+}
+.left-top {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.left-bottom {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.right-top {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.right-bottom {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
